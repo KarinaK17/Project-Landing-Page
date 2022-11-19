@@ -71,6 +71,7 @@ button {
     width: 100px;
     height: 30px;
     border-radius: 10px;
+    border: none;
 }
 
 .pictures {
@@ -139,4 +140,35 @@ button {
     margin: auto;
     color: white;
     padding: 30px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 1200px;
+    height: 120px;
+    border-radius: 30px;
+    background-color: #3882F6;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.actionhead {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.content {
+    color: white;
+}
+
+.box button {
+    border: 1px solid white;
 }
