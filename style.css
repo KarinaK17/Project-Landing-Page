@@ -104,3 +104,39 @@ button {
 .description {
     text-align: center;
 }
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.quotation {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+    max-width: 1060px;
+}
+
+.saying {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer div {
+    margin: auto;
+    color: white;
+    padding: 30px;
+}
