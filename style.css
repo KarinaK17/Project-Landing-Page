@@ -1,174 +1,175 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Robota', sans-serif;
-  display:flex;
+  font-family: "Robota", sans-serif;
+  display: flex;
   flex-direction: column;
 }
 
 .hero {
-    padding: 0 250px;
+  padding: 0 250px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    gap: 16px;
+  list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
 a {
-    color: #E5E7EB;
-    text-decoration: none;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
-.hero, .footer {
-    background: #1F2937;
+.hero,
+.footer {
+  background: #1f2937;
 }
 
 .text {
-    width: 600px;
+  width: 600px;
 }
 
 .start img {
-    width: 500px;
-    padding: 50px 0;
+  width: 500px;
+  padding: 50px 0;
 }
 
 .logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .welcome {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-bottom: 15px;
 }
 
 .aboutstore {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-bottom: 15px;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .start {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button {
-    background-color: #3882F6;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
 }
 
 .pictures {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-    padding: 50px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 50px;
+  align-items: center;
 }
 .title {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: extra-bold;
-    margin-bottom: 30px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: extra-bold;
+  margin-bottom: 30px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .info {
-    max-width: 250px;   
+  max-width: 250px;
 }
 
 .container img {
-    width: 250px;
+  width: 250px;
 }
 
 .description {
-    text-align: center;
+  text-align: center;
 }
 
 .quote {
-    background: #E5E7EB;
-    display: flex;
-    justify-content: center;
+  background: #e5e7eb;
+  display: flex;
+  justify-content: center;
 }
 .quotation {
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
-    justify-content: center;
-    max-width: 1060px;
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  justify-content: center;
+  max-width: 1060px;
 }
 
 .saying {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-    font-weight: light;
-    align-self: center;
-    margin-bottom: 30px;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: light;
+  align-self: center;
+  margin-bottom: 30px;
 }
 .author {
-    align-self: flex-end;
-    font-weight: bold;
+  align-self: flex-end;
+  font-weight: bold;
 }
 
 .footer {
-    display: flex;
+  display: flex;
 }
 
 .footer div {
-    margin: auto;
-    color: white;
-    padding: 30px;
+  margin: auto;
+  color: white;
+  padding: 30px;
 }
 
 .action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-    width: 1200px;
-    height: 120px;
-    border-radius: 30px;
-    background-color: #3882F6;
-    margin: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  width: 1200px;
+  height: 120px;
+  border-radius: 30px;
+  background-color: #3882f6;
+  margin: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .actionhead {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 .content {
-    color: white;
+  color: white;
 }
 
 .box button {
-    border: 1px solid white;
+  border: 1px solid white;
 }
